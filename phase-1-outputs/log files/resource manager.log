@@ -1,0 +1,386 @@
+19/02/22 18:22:54 INFO resourcemanager.ResourceManager: STARTUP_MSG:
+/************************************************************
+STARTUP_MSG: Starting ResourceManager
+STARTUP_MSG:   host = DESKTOP-C3MTRKT/192.168.1.208
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 2.7.2
+STARTUP_MSG:   classpath = C:\work\hadoop-2.7.2\etc\hadoop;C:\work\hadoop-2.7.2\etc\hadoop;C:\work\hadoop-2.7.2\etc\hadoop;C:\work\hadoop-2.7.2\share\hadoop\common\lib\activation-1.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\apacheds-i18n-2.0.0-M15.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\apacheds-kerberos-codec-2.0.0-M15.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\api-asn1-api-1.0.0-M20.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\api-util-1.0.0-M20.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\asm-3.2.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\avro-1.7.4.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-beanutils-1.7.0.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-beanutils-core-1.8.0.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-cli-1.2.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-codec-1.4.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-collections-3.2.2.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-compress-1.4.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-configuration-1.6.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-digester-1.8.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-httpclient-3.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-io-2.4.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-lang-2.6.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-logging-1.1.3.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-math3-3.1.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\commons-net-3.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\curator-client-2.7.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\curator-framework-2.7.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\curator-recipes-2.7.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\gson-2.2.4.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\guava-11.0.2.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\hadoop-annotations-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\hadoop-auth-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\hamcrest-core-1.3.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\htrace-core-3.1.0-incubating.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\httpclient-4.2.5.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\httpcore-4.2.5.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jackson-core-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jackson-jaxrs-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jackson-mapper-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jackson-xc-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\java-xmlbuilder-0.4.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jaxb-api-2.2.2.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jaxb-impl-2.2.3-1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jersey-core-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jersey-json-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jersey-server-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jets3t-0.9.0.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jettison-1.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jetty-6.1.26.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jetty-util-6.1.26.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jsch-0.1.42.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jsp-api-2.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\jsr305-3.0.0.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\junit-4.11.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\log4j-1.2.17.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\mockito-all-1.8.5.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\netty-3.6.2.Final.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\paranamer-2.3.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\protobuf-java-2.5.0.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\servlet-api-2.5.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\slf4j-api-1.7.10.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\slf4j-log4j12-1.7.10.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\snappy-java-1.0.4.1.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\stax-api-1.0-2.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\xmlenc-0.52.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\xz-1.0.jar;C:\work\hadoop-2.7.2\share\hadoop\common\lib\zookeeper-3.4.6.jar;C:\work\hadoop-2.7.2\share\hadoop\common\hadoop-common-2.7.2-tests.jar;C:\work\hadoop-2.7.2\share\hadoop\common\hadoop-common-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\common\hadoop-nfs-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\asm-3.2.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\commons-cli-1.2.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\commons-codec-1.4.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\commons-daemon-1.0.13.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\commons-io-2.4.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\commons-lang-2.6.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\commons-logging-1.1.3.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\guava-11.0.2.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\htrace-core-3.1.0-incubating.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\jackson-core-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\jackson-mapper-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\jersey-core-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\jersey-server-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\jetty-6.1.26.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\jetty-util-6.1.26.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\jsr305-3.0.0.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\leveldbjni-all-1.8.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\log4j-1.2.17.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\netty-3.6.2.Final.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\netty-all-4.0.23.Final.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\protobuf-java-2.5.0.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\servlet-api-2.5.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\xercesImpl-2.9.1.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\xml-apis-1.3.04.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\lib\xmlenc-0.52.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\hadoop-hdfs-2.7.2-tests.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\hadoop-hdfs-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\hdfs\hadoop-hdfs-nfs-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\activation-1.1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\aopalliance-1.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\asm-3.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-cli-1.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-codec-1.4.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-collections-3.2.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-compress-1.4.1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-io-2.4.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-lang-2.6.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-logging-1.1.3.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\guava-11.0.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\guice-3.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\guice-servlet-3.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jackson-core-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jackson-jaxrs-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jackson-mapper-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jackson-xc-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\javax.inject-1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jaxb-api-2.2.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jaxb-impl-2.2.3-1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-client-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-core-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-guice-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-json-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-server-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jettison-1.1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jetty-6.1.26.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jetty-util-6.1.26.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jsr305-3.0.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\leveldbjni-all-1.8.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\log4j-1.2.17.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\netty-3.6.2.Final.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\protobuf-java-2.5.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\servlet-api-2.5.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\stax-api-1.0-2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\xz-1.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\zookeeper-3.4.6-tests.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\zookeeper-3.4.6.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-api-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-applications-distributedshell-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-applications-unmanaged-am-launcher-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-client-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-common-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-registry-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-applicationhistoryservice-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-common-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-nodemanager-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-resourcemanager-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-sharedcachemanager-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-tests-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-web-proxy-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\aopalliance-1.0.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\asm-3.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\avro-1.7.4.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\commons-compress-1.4.1.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\commons-io-2.4.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\guice-3.0.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\guice-servlet-3.0.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\hadoop-annotations-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\hamcrest-core-1.3.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\jackson-core-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\jackson-mapper-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\javax.inject-1.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\jersey-core-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\jersey-guice-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\jersey-server-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\junit-4.11.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\leveldbjni-all-1.8.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\log4j-1.2.17.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\netty-3.6.2.Final.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\paranamer-2.3.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\protobuf-java-2.5.0.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\snappy-java-1.0.4.1.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\lib\xz-1.0.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\hadoop-mapreduce-client-app-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\hadoop-mapreduce-client-common-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\hadoop-mapreduce-client-core-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-plugins-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\hadoop-mapreduce-client-jobclient-2.7.2-tests.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\hadoop-mapreduce-client-jobclient-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\hadoop-mapreduce-client-shuffle-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\mapreduce\hadoop-mapreduce-examples-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-api-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-applications-distributedshell-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-applications-unmanaged-am-launcher-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-client-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-common-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-registry-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-applicationhistoryservice-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-common-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-nodemanager-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-resourcemanager-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-sharedcachemanager-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-tests-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\hadoop-yarn-server-web-proxy-2.7.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\activation-1.1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\aopalliance-1.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\asm-3.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-cli-1.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-codec-1.4.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-collections-3.2.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-compress-1.4.1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-io-2.4.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-lang-2.6.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\commons-logging-1.1.3.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\guava-11.0.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\guice-3.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\guice-servlet-3.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jackson-core-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jackson-jaxrs-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jackson-mapper-asl-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jackson-xc-1.9.13.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\javax.inject-1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jaxb-api-2.2.2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jaxb-impl-2.2.3-1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-client-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-core-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-guice-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-json-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jersey-server-1.9.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jettison-1.1.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jetty-6.1.26.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jetty-util-6.1.26.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\jsr305-3.0.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\leveldbjni-all-1.8.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\log4j-1.2.17.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\netty-3.6.2.Final.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\protobuf-java-2.5.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\servlet-api-2.5.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\stax-api-1.0-2.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\xz-1.0.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\zookeeper-3.4.6-tests.jar;C:\work\hadoop-2.7.2\share\hadoop\yarn\lib\zookeeper-3.4.6.jar;C:\work\hadoop-2.7.2\etc\hadoop\rm-config\log4j.properties
+STARTUP_MSG:   build = https://git-wip-us.apache.org/repos/asf/hadoop.git -r b165c4fe8a74265c792ce23f546c64604acf0e41; compiled by 'jenkins' on 2016-01-26T00:08Z
+STARTUP_MSG:   java = 1.8.0_201
+************************************************************/
+19/02/22 18:22:55 INFO conf.Configuration: found resource core-site.xml at file:/C:/work/hadoop-2.7.2/etc/hadoop/core-site.xml
+19/02/22 18:22:55 INFO security.Groups: clearing userToGroupsMap cache
+19/02/22 18:22:55 INFO conf.Configuration: found resource yarn-site.xml at file:/C:/work/hadoop-2.7.2/etc/hadoop/yarn-site.xml
+19/02/22 18:22:56 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.server.resourcemanager.RMFatalEventType for class org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$RMFatalEventDispatcher
+19/02/22 18:22:58 INFO security.NMTokenSecretManagerInRM: NMTokenKeyRollingInterval: 86400000ms and NMTokenKeyActivationDelay: 900000ms
+19/02/22 18:22:58 INFO security.RMContainerTokenSecretManager: ContainerTokenKeyRollingInterval: 86400000ms and ContainerTokenKeyActivationDelay: 900000ms
+19/02/22 18:22:58 INFO security.AMRMTokenSecretManager: AMRMTokenKeyRollingInterval: 86400000ms and AMRMTokenKeyActivationDelay: 900000 ms
+19/02/22 18:22:58 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.server.resourcemanager.recovery.RMStateStoreEventType for class org.apache.hadoop.yarn.server.resourcemanager.recovery.RMStateStore$ForwardingEventHandler
+19/02/22 18:22:58 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.server.resourcemanager.NodesListManagerEventType for class org.apache.hadoop.yarn.server.resourcemanager.NodesListManager
+19/02/22 18:22:58 INFO resourcemanager.ResourceManager: Using Scheduler: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler
+19/02/22 18:22:58 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.server.resourcemanager.scheduler.event.SchedulerEventType for class org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$SchedulerEventDispatcher
+19/02/22 18:22:58 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.server.resourcemanager.rmapp.RMAppEventType for class org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$ApplicationEventDispatcher
+19/02/22 18:22:58 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.server.resourcemanager.rmapp.attempt.RMAppAttemptEventType for class org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$ApplicationAttemptEventDispatcher
+19/02/22 18:22:58 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.server.resourcemanager.rmnode.RMNodeEventType for class org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$NodeEventDispatcher
+19/02/22 18:22:58 INFO impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+19/02/22 18:22:58 INFO impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+19/02/22 18:22:58 INFO impl.MetricsSystemImpl: ResourceManager metrics system started
+19/02/22 18:22:58 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.server.resourcemanager.RMAppManagerEventType for class org.apache.hadoop.yarn.server.resourcemanager.RMAppManager
+19/02/22 18:22:58 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.server.resourcemanager.amlauncher.AMLauncherEventType for class org.apache.hadoop.yarn.server.resourcemanager.amlauncher.ApplicationMasterLauncher
+19/02/22 18:22:58 INFO resourcemanager.RMNMInfo: Registered RMNMInfo MBean
+19/02/22 18:22:58 INFO security.YarnAuthorizationProvider: org.apache.hadoop.yarn.security.ConfiguredYarnAuthorizer is instiantiated.
+19/02/22 18:22:58 INFO util.HostsFileReader: Refreshing hosts (include/exclude) list
+19/02/22 18:22:58 INFO conf.Configuration: found resource capacity-scheduler.xml at file:/C:/work/hadoop-2.7.2/etc/hadoop/capacity-scheduler.xml
+19/02/22 18:22:59 INFO capacity.CapacitySchedulerConfiguration: max alloc mb per queue for root is undefined
+19/02/22 18:22:59 INFO capacity.CapacitySchedulerConfiguration: max alloc vcore per queue for root is undefined
+19/02/22 18:22:59 INFO capacity.ParentQueue: root, capacity=1.0, asboluteCapacity=1.0, maxCapacity=1.0, asboluteMaxCapacity=1.0, state=RUNNING, acls=SUBMIT_APP:*ADMINISTER_QUEUE:*, labels=*,
+, reservationsContinueLooking=true
+19/02/22 18:22:59 INFO capacity.ParentQueue: Initialized parent-queue root name=root, fullname=root
+19/02/22 18:22:59 INFO capacity.CapacitySchedulerConfiguration: max alloc mb per queue for root.default is undefined
+19/02/22 18:22:59 INFO capacity.CapacitySchedulerConfiguration: max alloc vcore per queue for root.default is undefined
+19/02/22 18:22:59 INFO capacity.LeafQueue: Initializing default
+capacity = 1.0 [= (float) configuredCapacity / 100 ]
+asboluteCapacity = 1.0 [= parentAbsoluteCapacity * capacity ]
+maxCapacity = 1.0 [= configuredMaxCapacity ]
+absoluteMaxCapacity = 1.0 [= 1.0 maximumCapacity undefined, (parentAbsoluteMaxCapacity * maximumCapacity) / 100 otherwise ]
+userLimit = 100 [= configuredUserLimit ]
+userLimitFactor = 1.0 [= configuredUserLimitFactor ]
+maxApplications = 10000 [= configuredMaximumSystemApplicationsPerQueue or (int)(configuredMaximumSystemApplications * absoluteCapacity)]
+maxApplicationsPerUser = 10000 [= (int)(maxApplications * (userLimit / 100.0f) * userLimitFactor) ]
+usedCapacity = 0.0 [= usedResourcesMemory / (clusterResourceMemory * absoluteCapacity)]
+absoluteUsedCapacity = 0.0 [= usedResourcesMemory / clusterResourceMemory]
+maxAMResourcePerQueuePercent = 0.1 [= configuredMaximumAMResourcePercent ]
+minimumAllocationFactor = 0.875 [= (float)(maximumAllocationMemory - minimumAllocationMemory) / maximumAllocationMemory ]
+maximumAllocation = <memory:8192, vCores:32> [= configuredMaxAllocation ]
+numContainers = 0 [= currentNumContainers ]
+state = RUNNING [= configuredState ]
+acls = SUBMIT_APP:*ADMINISTER_QUEUE:* [= configuredAcls ]
+nodeLocalityDelay = 40
+labels=*,
+nodeLocalityDelay = 40
+reservationsContinueLooking = true
+preemptionDisabled = true
+
+19/02/22 18:22:59 INFO capacity.CapacityScheduler: Initialized queue: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:0, vCores:0>, usedCapacity=0.0, absoluteUsedCapacity=0.0, numApps=0, numContainers=0
+19/02/22 18:22:59 INFO capacity.CapacityScheduler: Initialized queue: root: numChildQueue= 1, capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:0, vCores:0>usedCapacity=0.0, numApps=0, numContainers=0
+19/02/22 18:22:59 INFO capacity.CapacityScheduler: Initialized root queue root: numChildQueue= 1, capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:0, vCores:0>usedCapacity=0.0, numApps=0, numContainers=0
+19/02/22 18:22:59 INFO capacity.CapacityScheduler: Initialized queue mappings, override: false
+19/02/22 18:22:59 INFO capacity.CapacityScheduler: Initialized CapacityScheduler with calculator=class org.apache.hadoop.yarn.util.resource.DefaultResourceCalculator, minimumAllocation=<<memory:1024, vCores:1>>, maximumAllocation=<<memory:8192, vCores:32>>, asynchronousScheduling=false, asyncScheduleInterval=5ms
+19/02/22 18:22:59 INFO metrics.SystemMetricsPublisher: YARN system metrics publishing service is not enabled
+19/02/22 18:22:59 INFO resourcemanager.ResourceManager: Transitioning to active state
+19/02/22 18:22:59 INFO recovery.RMStateStore: Updating AMRMToken
+19/02/22 18:22:59 INFO security.RMContainerTokenSecretManager: Rolling master-key for container-tokens
+19/02/22 18:22:59 INFO security.NMTokenSecretManagerInRM: Rolling master-key for nm-tokens
+19/02/22 18:22:59 INFO delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+19/02/22 18:22:59 INFO security.RMDelegationTokenSecretManager: storing master key with keyID 1
+19/02/22 18:22:59 INFO recovery.RMStateStore: Storing RMDTMasterKey.
+19/02/22 18:22:59 INFO event.AsyncDispatcher: Registering class org.apache.hadoop.yarn.nodelabels.event.NodeLabelsStoreEventType for class org.apache.hadoop.yarn.nodelabels.CommonNodeLabelsManager$ForwardingEventHandler
+19/02/22 18:22:59 INFO delegation.AbstractDelegationTokenSecretManager: Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)
+19/02/22 18:22:59 INFO delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+19/02/22 18:22:59 INFO security.RMDelegationTokenSecretManager: storing master key with keyID 2
+19/02/22 18:22:59 INFO recovery.RMStateStore: Storing RMDTMasterKey.
+19/02/22 18:22:59 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+19/02/22 18:22:59 INFO ipc.Server: Starting Socket Reader #1 for port 8031
+19/02/22 18:22:59 INFO pb.RpcServerFactoryPBImpl: Adding protocol org.apache.hadoop.yarn.server.api.ResourceTrackerPB to the server
+19/02/22 18:22:59 INFO ipc.Server: IPC Server Responder: starting
+19/02/22 18:22:59 INFO ipc.Server: IPC Server listener on 8031: starting
+19/02/22 18:22:59 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+19/02/22 18:22:59 INFO ipc.Server: Starting Socket Reader #1 for port 8030
+19/02/22 18:22:59 INFO pb.RpcServerFactoryPBImpl: Adding protocol org.apache.hadoop.yarn.api.ApplicationMasterProtocolPB to the server
+19/02/22 18:22:59 INFO ipc.Server: IPC Server Responder: starting
+19/02/22 18:22:59 INFO ipc.Server: IPC Server listener on 8030: starting
+19/02/22 18:22:59 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+19/02/22 18:22:59 INFO pb.RpcServerFactoryPBImpl: Adding protocol org.apache.hadoop.yarn.api.ApplicationClientProtocolPB to the server
+19/02/22 18:22:59 INFO resourcemanager.ResourceManager: Transitioned to active state
+19/02/22 18:22:59 INFO ipc.Server: IPC Server Responder: starting
+19/02/22 18:22:59 INFO ipc.Server: Starting Socket Reader #1 for port 8032
+19/02/22 18:22:59 INFO ipc.Server: IPC Server listener on 8032: starting
+19/02/22 18:22:59 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+19/02/22 18:22:59 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+19/02/22 18:22:59 INFO http.HttpRequestLog: Http request log for http.requests.resourcemanager is not defined
+19/02/22 18:22:59 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+19/02/22 18:22:59 INFO http.HttpServer2: Added filter RMAuthenticationFilter (class=org.apache.hadoop.yarn.server.security.http.RMAuthenticationFilter) to context cluster
+19/02/22 18:22:59 INFO http.HttpServer2: Added filter RMAuthenticationFilter (class=org.apache.hadoop.yarn.server.security.http.RMAuthenticationFilter) to context static
+19/02/22 18:22:59 INFO http.HttpServer2: Added filter RMAuthenticationFilter (class=org.apache.hadoop.yarn.server.security.http.RMAuthenticationFilter) to context logs
+19/02/22 18:22:59 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context cluster
+19/02/22 18:22:59 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+19/02/22 18:22:59 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context logs
+19/02/22 18:22:59 INFO http.HttpServer2: adding path spec: /cluster/*
+19/02/22 18:22:59 INFO http.HttpServer2: adding path spec: /ws/*
+19/02/22 18:23:00 INFO webapp.WebApps: Registered webapp guice modules
+19/02/22 18:23:00 INFO http.HttpServer2: Jetty bound to port 8088
+19/02/22 18:23:00 INFO mortbay.log: jetty-6.1.26
+19/02/22 18:23:00 INFO mortbay.log: Extract jar:file:/C:/work/hadoop-2.7.2/share/hadoop/yarn/hadoop-yarn-common-2.7.2.jar!/webapps/cluster to C:\Users\ADMINI~1\AppData\Local\Temp\Jetty_0_0_0_0_8088_cluster____u0rgz3\webapp
+19/02/22 18:23:01 INFO delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+19/02/22 18:23:01 INFO delegation.AbstractDelegationTokenSecretManager: Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)
+19/02/22 18:23:01 INFO delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+Feb 22, 2019 6:23:01 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.hadoop.yarn.server.resourcemanager.webapp.JAXBContextResolver as a provider class
+Feb 22, 2019 6:23:01 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.hadoop.yarn.server.resourcemanager.webapp.RMWebServices as a root resource class
+Feb 22, 2019 6:23:01 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.hadoop.yarn.webapp.GenericExceptionHandler as a provider class
+Feb 22, 2019 6:23:01 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Feb 22, 2019 6:23:01 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.hadoop.yarn.server.resourcemanager.webapp.JAXBContextResolver to GuiceManagedComponentProvider with the scope "Singleton"
+Feb 22, 2019 6:23:03 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.hadoop.yarn.webapp.GenericExceptionHandler to GuiceManagedComponentProvider with the scope "Singleton"
+Feb 22, 2019 6:23:04 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.hadoop.yarn.server.resourcemanager.webapp.RMWebServices to GuiceManagedComponentProvider with the scope "Singleton"
+19/02/22 18:23:04 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:8088
+19/02/22 18:23:04 INFO webapp.WebApps: Web app cluster started at 8088
+19/02/22 18:23:04 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+19/02/22 18:23:04 INFO pb.RpcServerFactoryPBImpl: Adding protocol org.apache.hadoop.yarn.server.api.ResourceManagerAdministrationProtocolPB to the server
+19/02/22 18:23:04 INFO ipc.Server: Starting Socket Reader #1 for port 8033
+19/02/22 18:23:04 INFO ipc.Server: IPC Server listener on 8033: starting
+19/02/22 18:23:04 INFO ipc.Server: IPC Server Responder: starting
+19/02/22 18:23:06 INFO util.RackResolver: Resolved DESKTOP-C3MTRKT to /default-rack
+19/02/22 18:23:06 INFO resourcemanager.ResourceTrackerService: NodeManager from node DESKTOP-C3MTRKT(cmPort: 51860 httpPort: 8042) registered with capability: <memory:8192, vCores:8>, assigned nodeId DESKTOP-C3MTRKT:51860
+19/02/22 18:23:06 INFO rmnode.RMNodeImpl: DESKTOP-C3MTRKT:51860 Node Transitioned from NEW to RUNNING
+19/02/22 18:23:06 INFO capacity.CapacityScheduler: Added node DESKTOP-C3MTRKT:51860 clusterResource: <memory:8192, vCores:8>
+19/02/22 18:32:58 INFO scheduler.AbstractYarnScheduler: Release request cache is cleaned up
+19/02/22 18:43:38 INFO resourcemanager.ClientRMService: Allocated new applicationId: 1
+19/02/22 18:43:39 INFO resourcemanager.ClientRMService: Application with id 1 submitted by user kanth
+19/02/22 18:43:39 INFO rmapp.RMAppImpl: Storing application with id application_1550881379159_0001
+19/02/22 18:43:39 INFO resourcemanager.RMAuditLogger: USER=kanth        IP=192.168.1.208        OPERATION=Submit Application Request    TARGET=ClientRMService  RESULT=SUCCESS  APPID=application_1550881379159_0001
+19/02/22 18:43:39 INFO rmapp.RMAppImpl: application_1550881379159_0001 State change from NEW to NEW_SAVING
+19/02/22 18:43:39 INFO recovery.RMStateStore: Storing info for app: application_1550881379159_0001
+19/02/22 18:43:39 INFO rmapp.RMAppImpl: application_1550881379159_0001 State change from NEW_SAVING to SUBMITTED
+19/02/22 18:43:39 INFO capacity.ParentQueue: Application added - appId: application_1550881379159_0001 user: kanth leaf-queue of parent: root #applications: 1
+19/02/22 18:43:39 INFO capacity.CapacityScheduler: Accepted application application_1550881379159_0001 from user: kanth, in queue: default
+19/02/22 18:43:39 INFO rmapp.RMAppImpl: application_1550881379159_0001 State change from SUBMITTED to ACCEPTED
+19/02/22 18:43:39 INFO resourcemanager.ApplicationMasterService: Registering app attempt : appattempt_1550881379159_0001_000001
+19/02/22 18:43:39 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0001_000001 State change from NEW to SUBMITTED
+19/02/22 18:43:39 WARN capacity.LeafQueue: maximum-am-resource-percent is insufficient to start a single application in queue, it is likely set too low. skipping enforcement to allow at least one application to start
+19/02/22 18:43:39 WARN capacity.LeafQueue: maximum-am-resource-percent is insufficient to start a single application in queue for user, it is likely set too low. skipping enforcement to allow at least one application to start
+19/02/22 18:43:39 INFO capacity.LeafQueue: Application application_1550881379159_0001 from user: kanth activated in queue: default
+19/02/22 18:43:39 INFO capacity.LeafQueue: Application added - appId: application_1550881379159_0001 user: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue$User@380fd9cb, leaf-queue: default #user-pending-applications: 0 #user-active-applications: 1 #queue-pending-applications: 0 #queue-active-applications: 1
+19/02/22 18:43:39 INFO capacity.CapacityScheduler: Added Application Attempt appattempt_1550881379159_0001_000001 to scheduler from user kanth in queue default
+19/02/22 18:43:39 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0001_000001 State change from SUBMITTED to SCHEDULED
+19/02/22 18:43:39 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000001 Container Transitioned from NEW to ALLOCATED
+19/02/22 18:43:39 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Allocated Container        TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0001    CONTAINERID=container_1550881379159_0001_01_000001
+19/02/22 18:43:39 INFO scheduler.SchedulerNode: Assigned container container_1550881379159_0001_01_000001 of capacity <memory:2048, vCores:1> on host DESKTOP-C3MTRKT:51860, which has 1 containers, <memory:2048, vCores:1> used and <memory:6144, vCores:7> available after allocation
+19/02/22 18:43:39 INFO capacity.LeafQueue: assignedContainer application attempt=appattempt_1550881379159_0001_000001 container=Container: [ContainerId: container_1550881379159_0001_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: null, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:0, vCores:0>, usedCapacity=0.0, absoluteUsedCapacity=0.0, numApps=1, numContainers=0 clusterResource=<memory:8192, vCores:8>
+19/02/22 18:43:39 INFO capacity.ParentQueue: Re-sorting assigned queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1
+19/02/22 18:43:39 INFO capacity.ParentQueue: assignedContainer queue=root usedCapacity=0.25 absoluteUsedCapacity=0.25 used=<memory:2048, vCores:1> cluster=<memory:8192, vCores:8>
+19/02/22 18:43:39 INFO security.NMTokenSecretManagerInRM: Sending NMToken for nodeId : DESKTOP-C3MTRKT:51860 for container : container_1550881379159_0001_01_000001
+19/02/22 18:43:39 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000001 Container Transitioned from ALLOCATED to ACQUIRED
+19/02/22 18:43:39 INFO security.NMTokenSecretManagerInRM: Clear node set for appattempt_1550881379159_0001_000001
+19/02/22 18:43:39 INFO attempt.RMAppAttemptImpl: Storing attempt: AppId: application_1550881379159_0001 AttemptId: appattempt_1550881379159_0001_000001 MasterContainer: Container: [ContainerId: container_1550881379159_0001_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ]
+19/02/22 18:43:39 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0001_000001 State change from SCHEDULED to ALLOCATED_SAVING
+19/02/22 18:43:39 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0001_000001 State change from ALLOCATED_SAVING to ALLOCATED
+19/02/22 18:43:39 INFO amlauncher.AMLauncher: Launching masterappattempt_1550881379159_0001_000001
+19/02/22 18:43:39 INFO amlauncher.AMLauncher: Setting up container Container: [ContainerId: container_1550881379159_0001_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] for AM appattempt_1550881379159_0001_000001
+19/02/22 18:43:39 INFO amlauncher.AMLauncher: Command to launch container container_1550881379159_0001_01_000001 : %JAVA_HOME%/bin/java -Djava.io.tmpdir=%PWD%/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=<LOG_DIR> -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog  -Xmx1024m org.apache.hadoop.mapreduce.v2.app.MRAppMaster 1><LOG_DIR>/stdout 2><LOG_DIR>/stderr
+19/02/22 18:43:39 INFO security.AMRMTokenSecretManager: Create AMRMToken for ApplicationAttempt: appattempt_1550881379159_0001_000001
+19/02/22 18:43:39 INFO security.AMRMTokenSecretManager: Creating password for appattempt_1550881379159_0001_000001
+19/02/22 18:43:40 INFO amlauncher.AMLauncher: Done launching container Container: [ContainerId: container_1550881379159_0001_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] for AM appattempt_1550881379159_0001_000001
+19/02/22 18:43:40 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0001_000001 State change from ALLOCATED to LAUNCHED
+19/02/22 18:43:40 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000001 Container Transitioned from ACQUIRED to RUNNING
+19/02/22 18:43:47 INFO ipc.Server: Auth successful for appattempt_1550881379159_0001_000001 (auth:SIMPLE)
+19/02/22 18:43:47 INFO resourcemanager.ApplicationMasterService: AM registration appattempt_1550881379159_0001_000001
+19/02/22 18:43:47 INFO resourcemanager.RMAuditLogger: USER=kanth        IP=192.168.1.208        OPERATION=Register App Master   TARGET=ApplicationMasterService RESULT=SUCCESS  APPID=application_1550881379159_0001    APPATTEMPTID=appattempt_1550881379159_0001_000001
+19/02/22 18:43:47 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0001_000001 State change from LAUNCHED to RUNNING
+19/02/22 18:43:47 INFO rmapp.RMAppImpl: application_1550881379159_0001 State change from ACCEPTED to RUNNING
+19/02/22 18:43:49 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000002 Container Transitioned from NEW to ALLOCATED
+19/02/22 18:43:49 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Allocated Container        TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0001    CONTAINERID=container_1550881379159_0001_01_000002
+19/02/22 18:43:49 INFO scheduler.SchedulerNode: Assigned container container_1550881379159_0001_01_000002 of capacity <memory:1024, vCores:1> on host DESKTOP-C3MTRKT:51860, which has 2 containers, <memory:3072, vCores:2> used and <memory:5120, vCores:6> available after allocation
+19/02/22 18:43:49 INFO capacity.LeafQueue: assignedContainer application attempt=appattempt_1550881379159_0001_000001 container=Container: [ContainerId: container_1550881379159_0001_01_000002, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:1024, vCores:1>, Priority: 20, Token: null, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1 clusterResource=<memory:8192, vCores:8>
+19/02/22 18:43:49 INFO capacity.ParentQueue: Re-sorting assigned queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:3072, vCores:2>, usedCapacity=0.375, absoluteUsedCapacity=0.375, numApps=1, numContainers=2
+19/02/22 18:43:49 INFO capacity.ParentQueue: assignedContainer queue=root usedCapacity=0.375 absoluteUsedCapacity=0.375 used=<memory:3072, vCores:2> cluster=<memory:8192, vCores:8>
+19/02/22 18:43:49 INFO security.NMTokenSecretManagerInRM: Sending NMToken for nodeId : DESKTOP-C3MTRKT:51860 for container : container_1550881379159_0001_01_000002
+19/02/22 18:43:49 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000002 Container Transitioned from ALLOCATED to ACQUIRED
+19/02/22 18:43:50 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000002 Container Transitioned from ACQUIRED to RUNNING
+19/02/22 18:43:50 INFO scheduler.AppSchedulingInfo: checking for deactivate of application :application_1550881379159_0001
+19/02/22 18:43:55 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000002 Container Transitioned from RUNNING to COMPLETED
+19/02/22 18:43:55 INFO fica.FiCaSchedulerApp: Completed container: container_1550881379159_0001_01_000002 in state: COMPLETED event:FINISHED
+19/02/22 18:43:55 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Released Container TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0001    CONTAINERID=container_1550881379159_0001_01_000002
+19/02/22 18:43:55 INFO scheduler.SchedulerNode: Released container container_1550881379159_0001_01_000002 of capacity <memory:1024, vCores:1> on host DESKTOP-C3MTRKT:51860, which currently has 1 containers, <memory:2048, vCores:1> used and <memory:6144, vCores:7> available, release resources=true
+19/02/22 18:43:55 INFO capacity.LeafQueue: default used=<memory:2048, vCores:1> numContainers=1 user=kanth user-resources=<memory:2048, vCores:1>
+19/02/22 18:43:55 INFO capacity.LeafQueue: completedContainer container=Container: [ContainerId: container_1550881379159_0001_01_000002, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:1024, vCores:1>, Priority: 20, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1 cluster=<memory:8192, vCores:8>
+19/02/22 18:43:55 INFO capacity.ParentQueue: completedContainer queue=root usedCapacity=0.25 absoluteUsedCapacity=0.25 used=<memory:2048, vCores:1> cluster=<memory:8192, vCores:8>
+19/02/22 18:43:55 INFO capacity.ParentQueue: Re-sorting completed queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1
+19/02/22 18:43:55 INFO capacity.CapacityScheduler: Application attempt appattempt_1550881379159_0001_000001 released container container_1550881379159_0001_01_000002 on node: host: DESKTOP-C3MTRKT:51860 #containers=1 available=<memory:6144, vCores:7> used=<memory:2048, vCores:1> with event: FINISHED
+19/02/22 18:43:56 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000003 Container Transitioned from NEW to ALLOCATED
+19/02/22 18:43:56 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Allocated Container        TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0001    CONTAINERID=container_1550881379159_0001_01_000003
+19/02/22 18:43:56 INFO scheduler.SchedulerNode: Assigned container container_1550881379159_0001_01_000003 of capacity <memory:1024, vCores:1> on host DESKTOP-C3MTRKT:51860, which has 2 containers, <memory:3072, vCores:2> used and <memory:5120, vCores:6> available after allocation
+19/02/22 18:43:56 INFO capacity.LeafQueue: assignedContainer application attempt=appattempt_1550881379159_0001_000001 container=Container: [ContainerId: container_1550881379159_0001_01_000003, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:1024, vCores:1>, Priority: 10, Token: null, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1 clusterResource=<memory:8192, vCores:8>
+19/02/22 18:43:56 INFO capacity.ParentQueue: Re-sorting assigned queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:3072, vCores:2>, usedCapacity=0.375, absoluteUsedCapacity=0.375, numApps=1, numContainers=2
+19/02/22 18:43:56 INFO capacity.ParentQueue: assignedContainer queue=root usedCapacity=0.375 absoluteUsedCapacity=0.375 used=<memory:3072, vCores:2> cluster=<memory:8192, vCores:8>
+19/02/22 18:43:56 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000003 Container Transitioned from ALLOCATED to ACQUIRED
+19/02/22 18:43:57 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000003 Container Transitioned from ACQUIRED to RUNNING
+19/02/22 18:43:57 INFO scheduler.AppSchedulingInfo: checking for deactivate of application :application_1550881379159_0001
+19/02/22 18:44:01 INFO attempt.RMAppAttemptImpl: Updating application attempt appattempt_1550881379159_0001_000001 with final state: FINISHING, and exit status: -1000
+19/02/22 18:44:01 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0001_000001 State change from RUNNING to FINAL_SAVING
+19/02/22 18:44:01 INFO rmapp.RMAppImpl: Updating application application_1550881379159_0001 with final state: FINISHING
+19/02/22 18:44:01 INFO rmapp.RMAppImpl: application_1550881379159_0001 State change from RUNNING to FINAL_SAVING
+19/02/22 18:44:01 INFO recovery.RMStateStore: Updating info for app: application_1550881379159_0001
+19/02/22 18:44:01 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0001_000001 State change from FINAL_SAVING to FINISHING
+19/02/22 18:44:01 INFO rmapp.RMAppImpl: application_1550881379159_0001 State change from FINAL_SAVING to FINISHING
+19/02/22 18:44:01 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000003 Container Transitioned from RUNNING to COMPLETED
+19/02/22 18:44:01 INFO fica.FiCaSchedulerApp: Completed container: container_1550881379159_0001_01_000003 in state: COMPLETED event:FINISHED
+19/02/22 18:44:01 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Released Container TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0001    CONTAINERID=container_1550881379159_0001_01_000003
+19/02/22 18:44:01 INFO scheduler.SchedulerNode: Released container container_1550881379159_0001_01_000003 of capacity <memory:1024, vCores:1> on host DESKTOP-C3MTRKT:51860, which currently has 1 containers, <memory:2048, vCores:1> used and <memory:6144, vCores:7> available, release resources=true
+19/02/22 18:44:01 INFO capacity.LeafQueue: default used=<memory:2048, vCores:1> numContainers=1 user=kanth user-resources=<memory:2048, vCores:1>
+19/02/22 18:44:01 INFO capacity.LeafQueue: completedContainer container=Container: [ContainerId: container_1550881379159_0001_01_000003, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:1024, vCores:1>, Priority: 10, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1 cluster=<memory:8192, vCores:8>
+19/02/22 18:44:01 INFO capacity.ParentQueue: completedContainer queue=root usedCapacity=0.25 absoluteUsedCapacity=0.25 used=<memory:2048, vCores:1> cluster=<memory:8192, vCores:8>
+19/02/22 18:44:01 INFO capacity.ParentQueue: Re-sorting completed queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1
+19/02/22 18:44:01 INFO capacity.CapacityScheduler: Application attempt appattempt_1550881379159_0001_000001 released container container_1550881379159_0001_01_000003 on node: host: DESKTOP-C3MTRKT:51860 #containers=1 available=<memory:6144, vCores:7> used=<memory:2048, vCores:1> with event: FINISHED
+19/02/22 18:44:02 INFO resourcemanager.ApplicationMasterService: application_1550881379159_0001 unregistered successfully.
+19/02/22 18:44:07 INFO ipc.Server: Socket Reader #1 for port 8030: readAndProcess from client 192.168.1.208 threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+        at sun.nio.ch.SocketDispatcher.read0(Native Method)
+        at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+        at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+        at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+        at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+        at org.apache.hadoop.ipc.Server.channelRead(Server.java:2603)
+        at org.apache.hadoop.ipc.Server.access$2800(Server.java:136)
+        at org.apache.hadoop.ipc.Server$Connection.readAndProcess(Server.java:1481)
+        at org.apache.hadoop.ipc.Server$Listener.doRead(Server.java:771)
+        at org.apache.hadoop.ipc.Server$Listener$Reader.doRunLoop(Server.java:637)
+        at org.apache.hadoop.ipc.Server$Listener$Reader.run(Server.java:608)
+19/02/22 18:44:07 INFO rmcontainer.RMContainerImpl: container_1550881379159_0001_01_000001 Container Transitioned from RUNNING to COMPLETED
+19/02/22 18:44:07 INFO resourcemanager.ApplicationMasterService: Unregistering app attempt : appattempt_1550881379159_0001_000001
+19/02/22 18:44:07 INFO fica.FiCaSchedulerApp: Completed container: container_1550881379159_0001_01_000001 in state: COMPLETED event:FINISHED
+19/02/22 18:44:07 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Released Container TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0001    CONTAINERID=container_1550881379159_0001_01_000001
+19/02/22 18:44:07 INFO security.AMRMTokenSecretManager: Application finished, removing password for appattempt_1550881379159_0001_000001
+19/02/22 18:44:07 INFO scheduler.SchedulerNode: Released container container_1550881379159_0001_01_000001 of capacity <memory:2048, vCores:1> on host DESKTOP-C3MTRKT:51860, which currently has 0 containers, <memory:0, vCores:0> used and <memory:8192, vCores:8> available, release resources=true
+19/02/22 18:44:07 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0001_000001 State change from FINISHING to FINISHED
+19/02/22 18:44:07 INFO capacity.LeafQueue: default used=<memory:0, vCores:0> numContainers=0 user=kanth user-resources=<memory:0, vCores:0>
+19/02/22 18:44:07 INFO capacity.LeafQueue: completedContainer container=Container: [ContainerId: container_1550881379159_0001_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:0, vCores:0>, usedCapacity=0.0, absoluteUsedCapacity=0.0, numApps=1, numContainers=0 cluster=<memory:8192, vCores:8>
+19/02/22 18:44:07 INFO capacity.ParentQueue: completedContainer queue=root usedCapacity=0.0 absoluteUsedCapacity=0.0 used=<memory:0, vCores:0> cluster=<memory:8192, vCores:8>
+19/02/22 18:44:07 INFO capacity.ParentQueue: Re-sorting completed queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:0, vCores:0>, usedCapacity=0.0, absoluteUsedCapacity=0.0, numApps=1, numContainers=0
+19/02/22 18:44:07 INFO rmapp.RMAppImpl: application_1550881379159_0001 State change from FINISHING to FINISHED
+19/02/22 18:44:07 INFO capacity.CapacityScheduler: Application attempt appattempt_1550881379159_0001_000001 released container container_1550881379159_0001_01_000001 on node: host: DESKTOP-C3MTRKT:51860 #containers=0 available=<memory:8192, vCores:8> used=<memory:0, vCores:0> with event: FINISHED
+19/02/22 18:44:07 INFO capacity.CapacityScheduler: Application Attempt appattempt_1550881379159_0001_000001 is done. finalState=FINISHED
+19/02/22 18:44:07 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=Application Finished - Succeeded      TARGET=RMAppManager     RESULT=SUCCESS  APPID=application_1550881379159_0001
+19/02/22 18:44:07 INFO scheduler.AppSchedulingInfo: Application application_1550881379159_0001 requests cleared
+19/02/22 18:44:07 INFO capacity.LeafQueue: Application removed - appId: application_1550881379159_0001 user: kanth queue: default #user-pending-applications: 0 #user-active-applications: 0 #queue-pending-applications: 0 #queue-active-applications: 0
+19/02/22 18:44:07 INFO amlauncher.AMLauncher: Cleaning master appattempt_1550881379159_0001_000001
+19/02/22 18:44:07 INFO capacity.ParentQueue: Application removed - appId: application_1550881379159_0001 user: kanth leaf-queue of parent: root #applications: 0
+19/02/22 18:44:07 INFO resourcemanager.RMAppManager$ApplicationSummary: appId=application_1550881379159_0001,name=word count,user=kanth,queue=default,state=FINISHED,trackingUrl=http://DESKTOP-C3MTRKT:8088/proxy/application_1550881379159_0001/,appMasterHost=DESKTOP-C3MTRKT,startTime=1550882619324,finishTime=1550882641137,finalStatus=SUCCEEDED,memorySeconds=69385,vcoreSeconds=38,preemptedAMContainers=0,preemptedNonAMContainers=0,preemptedResources=<memory:0\, vCores:0>,applicationType=MAPREDUCE
+19/02/22 18:44:08 INFO capacity.CapacityScheduler: Null container completed...
+19/02/22 18:56:06 INFO resourcemanager.ClientRMService: Allocated new applicationId: 2
+19/02/22 18:56:07 INFO resourcemanager.ClientRMService: Application with id 2 submitted by user kanth
+19/02/22 18:56:07 INFO rmapp.RMAppImpl: Storing application with id application_1550881379159_0002
+19/02/22 18:56:07 INFO resourcemanager.RMAuditLogger: USER=kanth        IP=192.168.1.208        OPERATION=Submit Application Request    TARGET=ClientRMService  RESULT=SUCCESS  APPID=application_1550881379159_0002
+19/02/22 18:56:07 INFO recovery.RMStateStore: Storing info for app: application_1550881379159_0002
+19/02/22 18:56:07 INFO rmapp.RMAppImpl: application_1550881379159_0002 State change from NEW to NEW_SAVING
+19/02/22 18:56:07 INFO rmapp.RMAppImpl: application_1550881379159_0002 State change from NEW_SAVING to SUBMITTED
+19/02/22 18:56:07 INFO capacity.ParentQueue: Application added - appId: application_1550881379159_0002 user: kanth leaf-queue of parent: root #applications: 1
+19/02/22 18:56:07 INFO capacity.CapacityScheduler: Accepted application application_1550881379159_0002 from user: kanth, in queue: default
+19/02/22 18:56:07 INFO rmapp.RMAppImpl: application_1550881379159_0002 State change from SUBMITTED to ACCEPTED
+19/02/22 18:56:07 INFO resourcemanager.ApplicationMasterService: Registering app attempt : appattempt_1550881379159_0002_000001
+19/02/22 18:56:07 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0002_000001 State change from NEW to SUBMITTED
+19/02/22 18:56:07 WARN capacity.LeafQueue: maximum-am-resource-percent is insufficient to start a single application in queue, it is likely set too low. skipping enforcement to allow at least one application to start
+19/02/22 18:56:07 WARN capacity.LeafQueue: maximum-am-resource-percent is insufficient to start a single application in queue for user, it is likely set too low. skipping enforcement to allow at least one application to start
+19/02/22 18:56:07 INFO capacity.LeafQueue: Application application_1550881379159_0002 from user: kanth activated in queue: default
+19/02/22 18:56:07 INFO capacity.LeafQueue: Application added - appId: application_1550881379159_0002 user: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue$User@1e9629b4, leaf-queue: default #user-pending-applications: 0 #user-active-applications: 1 #queue-pending-applications: 0 #queue-active-applications: 1
+19/02/22 18:56:07 INFO capacity.CapacityScheduler: Added Application Attempt appattempt_1550881379159_0002_000001 to scheduler from user kanth in queue default
+19/02/22 18:56:07 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0002_000001 State change from SUBMITTED to SCHEDULED
+19/02/22 18:56:07 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000001 Container Transitioned from NEW to ALLOCATED
+19/02/22 18:56:07 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Allocated Container        TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0002    CONTAINERID=container_1550881379159_0002_01_000001
+19/02/22 18:56:07 INFO scheduler.SchedulerNode: Assigned container container_1550881379159_0002_01_000001 of capacity <memory:2048, vCores:1> on host DESKTOP-C3MTRKT:51860, which has 1 containers, <memory:2048, vCores:1> used and <memory:6144, vCores:7> available after allocation
+19/02/22 18:56:07 INFO capacity.LeafQueue: assignedContainer application attempt=appattempt_1550881379159_0002_000001 container=Container: [ContainerId: container_1550881379159_0002_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: null, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:0, vCores:0>, usedCapacity=0.0, absoluteUsedCapacity=0.0, numApps=1, numContainers=0 clusterResource=<memory:8192, vCores:8>
+19/02/22 18:56:07 INFO capacity.ParentQueue: Re-sorting assigned queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1
+19/02/22 18:56:07 INFO capacity.ParentQueue: assignedContainer queue=root usedCapacity=0.25 absoluteUsedCapacity=0.25 used=<memory:2048, vCores:1> cluster=<memory:8192, vCores:8>
+19/02/22 18:56:07 INFO security.NMTokenSecretManagerInRM: Sending NMToken for nodeId : DESKTOP-C3MTRKT:51860 for container : container_1550881379159_0002_01_000001
+19/02/22 18:56:07 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000001 Container Transitioned from ALLOCATED to ACQUIRED
+19/02/22 18:56:07 INFO security.NMTokenSecretManagerInRM: Clear node set for appattempt_1550881379159_0002_000001
+19/02/22 18:56:07 INFO attempt.RMAppAttemptImpl: Storing attempt: AppId: application_1550881379159_0002 AttemptId: appattempt_1550881379159_0002_000001 MasterContainer: Container: [ContainerId: container_1550881379159_0002_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ]
+19/02/22 18:56:07 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0002_000001 State change from SCHEDULED to ALLOCATED_SAVING
+19/02/22 18:56:07 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0002_000001 State change from ALLOCATED_SAVING to ALLOCATED
+19/02/22 18:56:07 INFO amlauncher.AMLauncher: Launching masterappattempt_1550881379159_0002_000001
+19/02/22 18:56:07 INFO amlauncher.AMLauncher: Setting up container Container: [ContainerId: container_1550881379159_0002_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] for AM appattempt_1550881379159_0002_000001
+19/02/22 18:56:07 INFO amlauncher.AMLauncher: Command to launch container container_1550881379159_0002_01_000001 : %JAVA_HOME%/bin/java -Djava.io.tmpdir=%PWD%/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=<LOG_DIR> -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog  -Xmx1024m org.apache.hadoop.mapreduce.v2.app.MRAppMaster 1><LOG_DIR>/stdout 2><LOG_DIR>/stderr
+19/02/22 18:56:07 INFO security.AMRMTokenSecretManager: Create AMRMToken for ApplicationAttempt: appattempt_1550881379159_0002_000001
+19/02/22 18:56:07 INFO security.AMRMTokenSecretManager: Creating password for appattempt_1550881379159_0002_000001
+19/02/22 18:56:07 INFO amlauncher.AMLauncher: Done launching container Container: [ContainerId: container_1550881379159_0002_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] for AM appattempt_1550881379159_0002_000001
+19/02/22 18:56:07 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0002_000001 State change from ALLOCATED to LAUNCHED
+19/02/22 18:56:08 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000001 Container Transitioned from ACQUIRED to RUNNING
+19/02/22 18:56:13 INFO ipc.Server: Auth successful for appattempt_1550881379159_0002_000001 (auth:SIMPLE)
+19/02/22 18:56:13 INFO resourcemanager.ApplicationMasterService: AM registration appattempt_1550881379159_0002_000001
+19/02/22 18:56:13 INFO resourcemanager.RMAuditLogger: USER=kanth        IP=192.168.1.208        OPERATION=Register App Master   TARGET=ApplicationMasterService RESULT=SUCCESS  APPID=application_1550881379159_0002    APPATTEMPTID=appattempt_1550881379159_0002_000001
+19/02/22 18:56:13 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0002_000001 State change from LAUNCHED to RUNNING
+19/02/22 18:56:13 INFO rmapp.RMAppImpl: application_1550881379159_0002 State change from ACCEPTED to RUNNING
+19/02/22 18:56:15 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000002 Container Transitioned from NEW to ALLOCATED
+19/02/22 18:56:15 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Allocated Container        TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0002    CONTAINERID=container_1550881379159_0002_01_000002
+19/02/22 18:56:15 INFO scheduler.SchedulerNode: Assigned container container_1550881379159_0002_01_000002 of capacity <memory:1024, vCores:1> on host DESKTOP-C3MTRKT:51860, which has 2 containers, <memory:3072, vCores:2> used and <memory:5120, vCores:6> available after allocation
+19/02/22 18:56:15 INFO capacity.LeafQueue: assignedContainer application attempt=appattempt_1550881379159_0002_000001 container=Container: [ContainerId: container_1550881379159_0002_01_000002, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:1024, vCores:1>, Priority: 20, Token: null, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1 clusterResource=<memory:8192, vCores:8>
+19/02/22 18:56:15 INFO capacity.ParentQueue: Re-sorting assigned queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:3072, vCores:2>, usedCapacity=0.375, absoluteUsedCapacity=0.375, numApps=1, numContainers=2
+19/02/22 18:56:15 INFO capacity.ParentQueue: assignedContainer queue=root usedCapacity=0.375 absoluteUsedCapacity=0.375 used=<memory:3072, vCores:2> cluster=<memory:8192, vCores:8>
+19/02/22 18:56:15 INFO security.NMTokenSecretManagerInRM: Sending NMToken for nodeId : DESKTOP-C3MTRKT:51860 for container : container_1550881379159_0002_01_000002
+19/02/22 18:56:15 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000002 Container Transitioned from ALLOCATED to ACQUIRED
+19/02/22 18:56:16 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000002 Container Transitioned from ACQUIRED to RUNNING
+19/02/22 18:56:16 INFO scheduler.AppSchedulingInfo: checking for deactivate of application :application_1550881379159_0002
+19/02/22 18:56:20 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000002 Container Transitioned from RUNNING to COMPLETED
+19/02/22 18:56:20 INFO fica.FiCaSchedulerApp: Completed container: container_1550881379159_0002_01_000002 in state: COMPLETED event:FINISHED
+19/02/22 18:56:20 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Released Container TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0002    CONTAINERID=container_1550881379159_0002_01_000002
+19/02/22 18:56:20 INFO scheduler.SchedulerNode: Released container container_1550881379159_0002_01_000002 of capacity <memory:1024, vCores:1> on host DESKTOP-C3MTRKT:51860, which currently has 1 containers, <memory:2048, vCores:1> used and <memory:6144, vCores:7> available, release resources=true
+19/02/22 18:56:20 INFO capacity.LeafQueue: default used=<memory:2048, vCores:1> numContainers=1 user=kanth user-resources=<memory:2048, vCores:1>
+19/02/22 18:56:20 INFO capacity.LeafQueue: completedContainer container=Container: [ContainerId: container_1550881379159_0002_01_000002, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:1024, vCores:1>, Priority: 20, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1 cluster=<memory:8192, vCores:8>
+19/02/22 18:56:20 INFO capacity.ParentQueue: completedContainer queue=root usedCapacity=0.25 absoluteUsedCapacity=0.25 used=<memory:2048, vCores:1> cluster=<memory:8192, vCores:8>
+19/02/22 18:56:20 INFO capacity.ParentQueue: Re-sorting completed queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1
+19/02/22 18:56:20 INFO capacity.CapacityScheduler: Application attempt appattempt_1550881379159_0002_000001 released container container_1550881379159_0002_01_000002 on node: host: DESKTOP-C3MTRKT:51860 #containers=1 available=<memory:6144, vCores:7> used=<memory:2048, vCores:1> with event: FINISHED
+19/02/22 18:56:21 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000003 Container Transitioned from NEW to ALLOCATED
+19/02/22 18:56:21 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Allocated Container        TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0002    CONTAINERID=container_1550881379159_0002_01_000003
+19/02/22 18:56:21 INFO scheduler.SchedulerNode: Assigned container container_1550881379159_0002_01_000003 of capacity <memory:1024, vCores:1> on host DESKTOP-C3MTRKT:51860, which has 2 containers, <memory:3072, vCores:2> used and <memory:5120, vCores:6> available after allocation
+19/02/22 18:56:21 INFO capacity.LeafQueue: assignedContainer application attempt=appattempt_1550881379159_0002_000001 container=Container: [ContainerId: container_1550881379159_0002_01_000003, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:1024, vCores:1>, Priority: 10, Token: null, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1 clusterResource=<memory:8192, vCores:8>
+19/02/22 18:56:21 INFO capacity.ParentQueue: Re-sorting assigned queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:3072, vCores:2>, usedCapacity=0.375, absoluteUsedCapacity=0.375, numApps=1, numContainers=2
+19/02/22 18:56:21 INFO capacity.ParentQueue: assignedContainer queue=root usedCapacity=0.375 absoluteUsedCapacity=0.375 used=<memory:3072, vCores:2> cluster=<memory:8192, vCores:8>
+19/02/22 18:56:21 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000003 Container Transitioned from ALLOCATED to ACQUIRED
+19/02/22 18:56:22 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000003 Container Transitioned from ACQUIRED to RUNNING
+19/02/22 18:56:22 INFO scheduler.AppSchedulingInfo: checking for deactivate of application :application_1550881379159_0002
+19/02/22 18:56:25 INFO attempt.RMAppAttemptImpl: Updating application attempt appattempt_1550881379159_0002_000001 with final state: FINISHING, and exit status: -1000
+19/02/22 18:56:25 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0002_000001 State change from RUNNING to FINAL_SAVING
+19/02/22 18:56:25 INFO rmapp.RMAppImpl: Updating application application_1550881379159_0002 with final state: FINISHING
+19/02/22 18:56:25 INFO rmapp.RMAppImpl: application_1550881379159_0002 State change from RUNNING to FINAL_SAVING
+19/02/22 18:56:25 INFO recovery.RMStateStore: Updating info for app: application_1550881379159_0002
+19/02/22 18:56:25 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0002_000001 State change from FINAL_SAVING to FINISHING
+19/02/22 18:56:25 INFO rmapp.RMAppImpl: application_1550881379159_0002 State change from FINAL_SAVING to FINISHING
+19/02/22 18:56:26 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000003 Container Transitioned from RUNNING to COMPLETED
+19/02/22 18:56:26 INFO fica.FiCaSchedulerApp: Completed container: container_1550881379159_0002_01_000003 in state: COMPLETED event:FINISHED
+19/02/22 18:56:26 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Released Container TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0002    CONTAINERID=container_1550881379159_0002_01_000003
+19/02/22 18:56:26 INFO scheduler.SchedulerNode: Released container container_1550881379159_0002_01_000003 of capacity <memory:1024, vCores:1> on host DESKTOP-C3MTRKT:51860, which currently has 1 containers, <memory:2048, vCores:1> used and <memory:6144, vCores:7> available, release resources=true
+19/02/22 18:56:26 INFO capacity.LeafQueue: default used=<memory:2048, vCores:1> numContainers=1 user=kanth user-resources=<memory:2048, vCores:1>
+19/02/22 18:56:26 INFO capacity.LeafQueue: completedContainer container=Container: [ContainerId: container_1550881379159_0002_01_000003, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:1024, vCores:1>, Priority: 10, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1 cluster=<memory:8192, vCores:8>
+19/02/22 18:56:26 INFO capacity.ParentQueue: completedContainer queue=root usedCapacity=0.25 absoluteUsedCapacity=0.25 used=<memory:2048, vCores:1> cluster=<memory:8192, vCores:8>
+19/02/22 18:56:26 INFO capacity.ParentQueue: Re-sorting completed queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:2048, vCores:1>, usedCapacity=0.25, absoluteUsedCapacity=0.25, numApps=1, numContainers=1
+19/02/22 18:56:26 INFO capacity.CapacityScheduler: Application attempt appattempt_1550881379159_0002_000001 released container container_1550881379159_0002_01_000003 on node: host: DESKTOP-C3MTRKT:51860 #containers=1 available=<memory:6144, vCores:7> used=<memory:2048, vCores:1> with event: FINISHED
+19/02/22 18:56:26 INFO resourcemanager.ApplicationMasterService: application_1550881379159_0002 unregistered successfully.
+19/02/22 18:56:31 INFO ipc.Server: Socket Reader #1 for port 8030: readAndProcess from client 192.168.1.208 threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+        at sun.nio.ch.SocketDispatcher.read0(Native Method)
+        at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+        at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+        at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+        at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+        at org.apache.hadoop.ipc.Server.channelRead(Server.java:2603)
+        at org.apache.hadoop.ipc.Server.access$2800(Server.java:136)
+        at org.apache.hadoop.ipc.Server$Connection.readAndProcess(Server.java:1481)
+        at org.apache.hadoop.ipc.Server$Listener.doRead(Server.java:771)
+        at org.apache.hadoop.ipc.Server$Listener$Reader.doRunLoop(Server.java:637)
+        at org.apache.hadoop.ipc.Server$Listener$Reader.run(Server.java:608)
+19/02/22 18:56:32 INFO rmcontainer.RMContainerImpl: container_1550881379159_0002_01_000001 Container Transitioned from RUNNING to COMPLETED
+19/02/22 18:56:32 INFO resourcemanager.ApplicationMasterService: Unregistering app attempt : appattempt_1550881379159_0002_000001
+19/02/22 18:56:32 INFO fica.FiCaSchedulerApp: Completed container: container_1550881379159_0002_01_000001 in state: COMPLETED event:FINISHED
+19/02/22 18:56:32 INFO security.AMRMTokenSecretManager: Application finished, removing password for appattempt_1550881379159_0002_000001
+19/02/22 18:56:32 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=AM Released Container TARGET=SchedulerApp     RESULT=SUCCESS  APPID=application_1550881379159_0002    CONTAINERID=container_1550881379159_0002_01_000001
+19/02/22 18:56:32 INFO attempt.RMAppAttemptImpl: appattempt_1550881379159_0002_000001 State change from FINISHING to FINISHED
+19/02/22 18:56:32 INFO rmapp.RMAppImpl: application_1550881379159_0002 State change from FINISHING to FINISHED
+19/02/22 18:56:32 INFO scheduler.SchedulerNode: Released container container_1550881379159_0002_01_000001 of capacity <memory:2048, vCores:1> on host DESKTOP-C3MTRKT:51860, which currently has 0 containers, <memory:0, vCores:0> used and <memory:8192, vCores:8> available, release resources=true
+19/02/22 18:56:32 INFO capacity.LeafQueue: default used=<memory:0, vCores:0> numContainers=0 user=kanth user-resources=<memory:0, vCores:0>
+19/02/22 18:56:32 INFO capacity.LeafQueue: completedContainer container=Container: [ContainerId: container_1550881379159_0002_01_000001, NodeId: DESKTOP-C3MTRKT:51860, NodeHttpAddress: DESKTOP-C3MTRKT:8042, Resource: <memory:2048, vCores:1>, Priority: 0, Token: Token { kind: ContainerToken, service: 192.168.1.208:51860 }, ] queue=default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:0, vCores:0>, usedCapacity=0.0, absoluteUsedCapacity=0.0, numApps=1, numContainers=0 cluster=<memory:8192, vCores:8>
+19/02/22 18:56:32 INFO resourcemanager.RMAuditLogger: USER=kanth        OPERATION=Application Finished - Succeeded      TARGET=RMAppManager     RESULT=SUCCESS  APPID=application_1550881379159_0002
+19/02/22 18:56:32 INFO capacity.ParentQueue: completedContainer queue=root usedCapacity=0.0 absoluteUsedCapacity=0.0 used=<memory:0, vCores:0> cluster=<memory:8192, vCores:8>
+19/02/22 18:56:32 INFO resourcemanager.RMAppManager$ApplicationSummary: appId=application_1550881379159_0002,name=word count,user=kanth,queue=default,state=FINISHED,trackingUrl=http://DESKTOP-C3MTRKT:8088/proxy/application_1550881379159_0002/,appMasterHost=DESKTOP-C3MTRKT,startTime=1550883367043,finishTime=1550883385295,finalStatus=SUCCEEDED,memorySeconds=60993,vcoreSeconds=32,preemptedAMContainers=0,preemptedNonAMContainers=0,preemptedResources=<memory:0\, vCores:0>,applicationType=MAPREDUCE
+19/02/22 18:56:32 INFO capacity.ParentQueue: Re-sorting completed queue: root.default stats: default: capacity=1.0, absoluteCapacity=1.0, usedResources=<memory:0, vCores:0>, usedCapacity=0.0, absoluteUsedCapacity=0.0, numApps=1, numContainers=0
+19/02/22 18:56:32 INFO amlauncher.AMLauncher: Cleaning master appattempt_1550881379159_0002_000001
+19/02/22 18:56:32 INFO capacity.CapacityScheduler: Application attempt appattempt_1550881379159_0002_000001 released container container_1550881379159_0002_01_000001 on node: host: DESKTOP-C3MTRKT:51860 #containers=0 available=<memory:8192, vCores:8> used=<memory:0, vCores:0> with event: FINISHED
+19/02/22 18:56:32 INFO capacity.CapacityScheduler: Application Attempt appattempt_1550881379159_0002_000001 is done. finalState=FINISHED
+19/02/22 18:56:32 INFO scheduler.AppSchedulingInfo: Application application_1550881379159_0002 requests cleared
+19/02/22 18:56:32 INFO capacity.LeafQueue: Application removed - appId: application_1550881379159_0002 user: kanth queue: default #user-pending-applications: 0 #user-active-applications: 0 #queue-pending-applications: 0 #queue-active-applications: 0
+19/02/22 18:56:32 INFO capacity.ParentQueue: Application removed - appId: application_1550881379159_0002 user: kanth leaf-queue of parent: root #applications: 0
+19/02/22 18:56:33 INFO capacity.CapacityScheduler: Null container completed...

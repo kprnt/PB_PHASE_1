@@ -1,0 +1,7 @@
+step1:- scala> spark-shell.cmd
+
+step2:-scala> val file =sc.textFile("scalatest/urls.txt")
+
+step3:-scala> val counts =file.flatMap(line => line.split(" "))map(word =>(word, 1))reduceByKey(_ + _)
+
+step4:-scala> counts.saveAsTextFile("C:\\Users\\kanth_osudmn1\\scalaurls")

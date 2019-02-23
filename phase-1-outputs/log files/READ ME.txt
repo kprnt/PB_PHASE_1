@@ -1,0 +1,22 @@
+phase-1-outputs\log files\datanode.log -> this file is in datanode.txt
+phase-1-outputs\log files\namenode.log -> this file is in namenode.txt
+phase-1-outputs\log files\resourcemanager.log -> this file is in resourcemanager.log
+phase-1-outputs\log files\nodemanager.log -> this file is in nodemanager.log
+
+phase-1-outputs\hadoopoutputs\part-r-00000-hashtags -> this is output file of wordcount hadoop on extracted hashtags 
+
+phase-1-outputs\hadoopoutputs\part-r-00000-urls -> this is output file of wordcount hadoop on extracted urls 
+
+phase-1-outputs\scalaoutputs\scalahashtags\part-00000 -> this first output file of wordcount scala on extracted hashtags
+
+phase-1-outputs\scalaoutputs\scalahashtags\part-00001 -> this second output file of wordcount scala on extracted hashtags
+
+phase-1-outputs\scalaoutputs\scalahasurls\part-00000 -> this first output file of wordcount scala on extracted urls
+
+phase-1-outputs\scalaoutputs\scalahasurls\part-00001 -> this second output file of wordcount scala on extracted urls
+
+
+
+
+
+
